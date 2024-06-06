@@ -17,7 +17,7 @@ function createTask(){
   newList.append(doneButton)
   doneButton.classList.add('donebutton')
   let editButton = document.createElement('span')
-  editButton.innerHTML =  ' &#128393;'
+  editButton.innerHTML =  ' &#x1F589;'
   newList.append(editButton)
   editButton.classList.add('editbutton')
   
